@@ -1,6 +1,14 @@
 var submitButton = document.getElementById("startbutton");
 
-function buildQuiz(){}
+// to get button to function and to hide it on click
+function buildQuiz(){
+  var intro = document.getElementById
+  ("intro");
+  // removing hide function
+  var question = document.getElementById("question");
+  intro.setAttribute("class","hide")
+  question.removeAttribute("class");
+}
 
 function showResults(){}
 
